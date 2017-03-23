@@ -117,3 +117,33 @@ print formatter % (
   "But it didn't sing",#如果语句中有出现引号，则外面使用双引号，里面的使用单引号
   "So I said goodning." 
 )
+
+#ex9
+# Here's some nw strange stuff, remember type it exactly
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+print "Here are the days: " , days
+print "Here are the months: ", months
+print """
+There 's something going on here.
+"""
+
+#ex10
+tabby_cat = "\tI'm tabbed in"
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat."
+fat_cat = """
+\t* i'will do it
+\t* hahasb
+\t* what can we do?
+\v what's this?
+\r what's this again?
+"""
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+num = 0
+while True:
+  num += 1
+  print num
